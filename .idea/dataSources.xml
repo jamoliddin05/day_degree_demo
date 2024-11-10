@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:postgresql://localhost:5432/day_degree_db</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="diseaseModels@dev-oxus-backend.amudar.io" uuid="af0bd79d-1330-400a-a679-bfba494dacd6">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://dev-oxus-backend.amudar.io:3306/diseaseModels</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
